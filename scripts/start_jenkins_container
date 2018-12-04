@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d --name saskrb_jenkins -p 8081:8080 -p 50001:50000  jenkins:latest
